@@ -8,13 +8,11 @@
       "command": "dotnet",
       "type": "shell",
       "options": {
-        "cwd": "groupSolution",
+        "cwd": "groupSolution"
       },
       "args": [
         "build",
-        // Ask dotnet build to generate full paths for file names.
         "/property:GenerateFullPaths=true",
-        // Do not generate summary otherwise it leads to duplicate errors in Problems panel
         "/consoleloggerparameters:NoSummary"
       ],
       "group": "build",
@@ -22,11 +20,18 @@
         "reveal": "silent"
       },
       "problemMatcher": "$msCompile"
-    },{
+    },
+    {
       "label": "build-tests",
-      "command":"dotnet build eaTest/eaTest.fsproj",
+      "command": "dotnet run",
       "type": "shell",
-      "group": "test",
+      "options": {
+        "cwd": "eaTest"
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
       "presentation": {
         "echo": true,
         "reveal": "silent",
@@ -34,9 +39,8 @@
         "panel": "shared",
         "showReuseMessage": true,
         "clear": false
-      }
-      ,
-      "problemMatcher":"$msCompile"
+      },
+      "problemMatcher": "$msCompile"
     }
   ]
 }

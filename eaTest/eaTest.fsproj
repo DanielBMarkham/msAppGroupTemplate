@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\groupCommon\Facade.fs">
+      <Link>Facade.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\SystemCommon\SystemTypeExtensions.fs">
+      <Link>SystemTypeExtensions.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\SystemCommon\SystemUtilities.fs">
+      <Link>SystemUtilities.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\SystemCommon\CommandLineHelper.fs">
+      <Link>CommandLineHelper.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\EATypeExtensions.fs">
+      <Link>EATypeExtensions.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\EALenses.fs">
+      <Link>EALenses.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\EAAppUtilities.fs">
+      <Link>EAAppUtilities.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\EAPersist.fs">
+      <Link>EAPersist.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Sample.fs" />
+    <Compile Include="Util.fs" />
+    <Compile Include="SmokeTests.fs" />
+    <Compile Include="LineIdentificationTests.fs" />
+    <Compile Include="LineID2Tests.fs" />
+    <Compile Include="Model1Tests.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="9.0.0" />
+    <PackageReference Include="Expecto.VisualStudio.TestAdapter" Version="10.0.2" />
+    <PackageReference Include="Logary" Version="5.0.0" />
+    <PackageReference Include="Logary.Adapters.Facade" Version="5.0.0-beta.26" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
+    <PackageReference Include="Markdig" Version="0.18.3" />
+    <PackageReference Include="NewtonSoft.Json" Version="12.0.3" />
+    <PackageReference Include="System" Version="4.1.0311.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eaLib\ealib.fsproj" />
+    <ProjectReference Include="..\ea\ea.fsproj" />
+  </ItemGroup>
+</Project>

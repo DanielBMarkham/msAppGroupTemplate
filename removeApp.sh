@@ -2,6 +2,6 @@
 
 APPNAME=${1:-foo}
 
-rm -r APPNAME
+rm -r $APPNAME
 
 

@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../groupCommon/Facade.fs">
+      <Link>Facade.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../SystemCommon/SystemTypeExtensions.fs">
+      <Link>SystemTypeExtensions.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../SystemCommon/SystemUtilities.fs">
+      <Link>SystemUtilities.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../SystemCommon/CommandLineHelper.fs">
+      <Link>CommandLineHelper.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\app.fsi">
+      <Link>app.fsi</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="..\groupCommon\app.fs">
+      <Link>app.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../groupCommon/appTypeExtensions.fsi">
+      <Link>appTypeExtensions.fsi</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../groupCommon/appTypeExtensions.fs">
+      <Link>appTypeExtensions.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../groupCommon/appLenses.fs">
+      <Link>appLenses.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../groupCommon/appAppUtilities.fs">
+      <Link>appAppUtilities.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="../groupCommon/appPersist.fs">
+      <Link>appPersist.fs</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Tokens.fsi" />
+    <Compile Include="ModelTypes.fs" />
+    <Compile Include="Tokens.fs" />
+    <Compile Include="Util.fsi" />
+    <Compile Include="Util.fs" />
+    <Compile Include="Compiler.fsi" />
+    <Compile Include="Compiler.fs" />
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="9.0.0" />
+    <PackageReference Include="Expecto.VisualStudio.TestAdapter" Version="10.0.2" />
+    <PackageReference Include="FsCheck" Version="3.0.0-alpha4" />
+    <PackageReference Include="Logary" Version="5.0.0" />
+    <PackageReference Include="Logary.Adapters.Facade" Version="5.0.0" />
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
+    <PackageReference Include="Markdig" Version="0.20.0" />
+    <PackageReference Include="NewtonSoft.Json" Version="12.0.3" />
+    <PackageReference Include="System" Version="4.1.0311.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.1" />
+  </ItemGroup>
+</Project>

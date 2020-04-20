@@ -19,15 +19,27 @@ for i in *
 do
     mv "$i" "${i/app/"$APPNAME"}"
 done
+sed -i "s/\\\app/$APPNAME/" *
+sed -i "s/applib/${APPNAME}""lib/" *
+sed -i "s/appTest/${APPNAME}""Test/" *
+sed -i "s/groupCommon"$APPNAME"/groupCommon\\\app/" *
 
 cd ../${APPNAME}
 for i in *
 do
     mv "$i" "${i/app/"$APPNAME"}"
 done
+sed -i "s/\\\app/$APPNAME/" *
+sed -i "s/applib/${APPNAME}""lib/" *
+sed -i "s/appTest/${APPNAME}""Test/" *
+sed -i "s/groupCommon"$APPNAME"/groupCommon\\\app/" *
 
 cd ../${APPNAME}Test
 for i in *
 do
     mv "$i" "${i/app/"$APPNAME"}"
 done
+sed -i "s/\\\app/$APPNAME/" *
+sed -i "s/applib/${APPNAME}""lib/" *
+sed -i "s/appTest/${APPNAME}""Test/" *
+sed -i "s/groupCommon"$APPNAME"/groupCommon\\\app/" *

@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\applib\applib.fsproj" />
+    <ProjectReference Include="..foolib\foolib.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="../../groupCommon/Facade.fs">

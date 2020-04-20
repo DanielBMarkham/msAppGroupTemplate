@@ -4,10 +4,14 @@ APPNAME=${1:-foo}
 
 
 mkdir $APPNAME
+mkdir $APPNAME/applib
+mkdir $APPNAME/app
+mkdir $APPNAME/appTest
 
-cp -r ./apptemplate/applib $APPNAME
-cp -r ./apptemplate/app $APPNAME
-cp -r ./apptemplate/appTest $APPNAME
+cp  ./apptemplate/applib/* $APPNAME/applib
+cp  ./apptemplate/app/* $APPNAME/app
+cp  ./apptemplate/appTest/* $APPNAME/appTest
+
 
 
 

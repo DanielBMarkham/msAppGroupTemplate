@@ -1,12 +1,12 @@
-﻿namespace app.Core
+﻿namespace IncomingCharges.Core
     module Main=
         open System
         open SystemTypeExtensions
         open SystemUtilities
         open CommandLineHelper
-        open app.Types
-        open app.Lenses
-        open app.Persist
+        open IncomingCharges.Types
+        open IncomingCharges.Lenses
+        open IncomingCharges.Persist
         open Logary // needed at bottom to give right "Level" lookup for logging
         // Tag-list for the logger is namespace, project name, file name
         let moduleLogger = logary.getLogger (PointName [| "EA"; "Core"; "EALib"; "Library" |])

@@ -1,10 +1,10 @@
-﻿namespace app.Compiler
+﻿namespace IncomingCharges.Compiler
   module Main=
     open System
     open System.Diagnostics
     open System.Threading
-    open app.Types
-    open app.Compiler.Util
+    open IncomingCharges.Types
+    open IncomingCharges.Compiler.Util
     open Logary
     open System
     // Tag-list for the logger is namespace, project name, file name

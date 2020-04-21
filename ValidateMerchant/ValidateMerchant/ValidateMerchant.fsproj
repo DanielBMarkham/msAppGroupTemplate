@@ -4,39 +4,39 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..ValidateMerchantlib\ValidateMerchantlib.fsproj" />
+    <ProjectReference Include="..\ValidateMerchantlib\ValidateMerchantlib.fsproj" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="../../groupCommon/Facade.fs">
+    <Compile Include="..\/../groupCommon/Facade.fs">
       <Link>Facade.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../SystemCommon/SystemTypeExtensions.fs">
+    <Compile Include="..\/../SystemCommon/SystemTypeExtensions.fs">
       <Link>SystemTypeExtensions.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../SystemCommon/SystemUtilities.fs">
+    <Compile Include="..\/../SystemCommon/SystemUtilities.fs">
       <Link>SystemUtilities.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../SystemCommon/CommandLineHelper.fs">
+    <Compile Include="..\/../SystemCommon/CommandLineHelper.fs">
       <Link>CommandLineHelper.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../groupCommon/appTypeExtensions.fs">
+    <Compile Include="..\/../groupCommon/appTypeExtensions.fs">
       <Link>appTypeExtensions.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Util.fs" />
-    <Compile Include="../../groupCommon/appLenses.fs">
+    <Compile Include="..\/../groupCommon/appLenses.fs">
       <Link>appLenses.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../groupCommon/appAppUtilities.fs">
+    <Compile Include="..\/../groupCommon/appAppUtilities.fs">
       <Link>appAppUtilities.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="../../groupCommon/appPersist.fs">
+    <Compile Include="..\/../groupCommon/appPersist.fs">
       <Link>appPersist.fs</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>

@@ -1,15 +1,15 @@
-namespace app.Test
+namespace ValidateBalance.Test
   module SmokeTests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Compiler
+    open ValidateBalance
+    open ValidateBalance.Types
+    open ValidateBalance.Lenses
+    open ValidateBalance.Persist
+    open ValidateBalance.Core
+    open ValidateBalance.Core.Compiler
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

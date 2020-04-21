@@ -1,15 +1,15 @@
-namespace app.Core
+namespace IncomingCharges.Core
   module Compiler=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Util
-    open app.Core.Tokens
+    open IncomingCharges
+    open IncomingCharges.Types
+    open IncomingCharges.Lenses
+    open IncomingCharges.Persist
+    open IncomingCharges.Core.Util
+    open IncomingCharges.Core.Tokens
     // needed at bottom to give right "Level" lookup for logging
     open Logary
     open System.Threading

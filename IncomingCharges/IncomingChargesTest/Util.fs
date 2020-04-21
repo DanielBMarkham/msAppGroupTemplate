@@ -1,16 +1,16 @@
-namespace app.Test
+namespace IncomingCharges.Test
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open IncomingCharges
+    open IncomingCharges.Types
+    open IncomingCharges.Lenses
+    open IncomingCharges.Persist
+    open IncomingCharges.Core
+    open IncomingCharges.Core.Util
+    open IncomingCharges.Core.Compiler
     open Expecto
     open Logary // needed at bottom to give right "Level" lookup for logging
     // Tag-list for the logger is namespace, project name, file name

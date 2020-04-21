@@ -1,14 +1,14 @@
-namespace app.Core
+namespace UpdateAccounts.Core
   open System.Numerics
   module ModelTypes=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
+    open UpdateAccounts
+    open UpdateAccounts.Types
+    open UpdateAccounts.Lenses
+    open UpdateAccounts.Persist
     open Logary // needed at bottom to give right "Level" lookup for logging
     //open System.Linq
     open System.Text.RegularExpressions

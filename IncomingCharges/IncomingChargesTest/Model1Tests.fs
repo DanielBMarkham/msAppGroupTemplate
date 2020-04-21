@@ -1,17 +1,17 @@
-namespace app.Test
+namespace IncomingCharges.Test
   module Model1Tests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
-    open app.Core.Tokens
+    open IncomingCharges
+    open IncomingCharges.Types
+    open IncomingCharges.Lenses
+    open IncomingCharges.Persist
+    open IncomingCharges.Core
+    open IncomingCharges.Core.Util
+    open IncomingCharges.Core.Compiler
+    open IncomingCharges.Core.Tokens
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

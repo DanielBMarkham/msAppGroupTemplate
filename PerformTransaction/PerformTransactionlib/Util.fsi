@@ -1,14 +1,14 @@
-namespace app.Core
+namespace PerformTransaction.Core
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Tokens
+    open PerformTransaction
+    open PerformTransaction.Types
+    open PerformTransaction.Lenses
+    open PerformTransaction.Persist
+    open PerformTransaction.Core.Tokens
 
 
 (*    type CompilerRuleType =

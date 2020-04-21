@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace UpdateAccounts.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open UpdateAccounts
+    open UpdateAccounts.Types
+    open UpdateAccounts.Lenses
+    open UpdateAccounts.Persist
+    open UpdateAccounts.Utilities
+    open UpdateAccounts.Core
+    open UpdateAccounts.Core.Util
+    open UpdateAccounts.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 

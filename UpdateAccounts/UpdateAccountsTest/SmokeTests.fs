@@ -1,15 +1,15 @@
-namespace app.Test
+namespace UpdateAccounts.Test
   module SmokeTests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Compiler
+    open UpdateAccounts
+    open UpdateAccounts.Types
+    open UpdateAccounts.Lenses
+    open UpdateAccounts.Persist
+    open UpdateAccounts.Core
+    open UpdateAccounts.Core.Compiler
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

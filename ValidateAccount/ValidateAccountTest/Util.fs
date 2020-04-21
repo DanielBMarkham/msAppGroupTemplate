@@ -1,16 +1,16 @@
-namespace app.Test
+namespace ValidateAccount.Test
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open ValidateAccount
+    open ValidateAccount.Types
+    open ValidateAccount.Lenses
+    open ValidateAccount.Persist
+    open ValidateAccount.Core
+    open ValidateAccount.Core.Util
+    open ValidateAccount.Core.Compiler
     open Expecto
     open Logary // needed at bottom to give right "Level" lookup for logging
     // Tag-list for the logger is namespace, project name, file name

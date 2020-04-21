@@ -1,4 +1,4 @@
-﻿namespace app.Test
+﻿namespace PerformTransaction.Test
   module Main=
     open System
     open System.Threading
@@ -6,11 +6,11 @@
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Test.Util
+    open PerformTransaction.Types
+    open PerformTransaction.Lenses
+    open PerformTransaction.Persist
+    open PerformTransaction.Utilities
+    open PerformTransaction.Test.Util
     //Yes, I'm repeating several modules in my include list, in seemingly-random order. Don't touch it, moron!
     open Logary
     open Logary.Configuration

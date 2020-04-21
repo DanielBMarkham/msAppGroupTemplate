@@ -1,16 +1,16 @@
-namespace app.Test
+namespace UpdateAccounts.Test
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open UpdateAccounts
+    open UpdateAccounts.Types
+    open UpdateAccounts.Lenses
+    open UpdateAccounts.Persist
+    open UpdateAccounts.Core
+    open UpdateAccounts.Core.Util
+    open UpdateAccounts.Core.Compiler
     open Expecto
     open Logary // needed at bottom to give right "Level" lookup for logging
     // Tag-list for the logger is namespace, project name, file name

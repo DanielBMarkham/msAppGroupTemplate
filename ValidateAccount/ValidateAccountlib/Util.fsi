@@ -1,14 +1,14 @@
-namespace app.Core
+namespace ValidateAccount.Core
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Tokens
+    open ValidateAccount
+    open ValidateAccount.Types
+    open ValidateAccount.Lenses
+    open ValidateAccount.Persist
+    open ValidateAccount.Core.Tokens
 
 
 (*    type CompilerRuleType =

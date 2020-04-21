@@ -1,16 +1,16 @@
-namespace app.Test
+namespace ValidateMerchant.Test
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open ValidateMerchant
+    open ValidateMerchant.Types
+    open ValidateMerchant.Lenses
+    open ValidateMerchant.Persist
+    open ValidateMerchant.Core
+    open ValidateMerchant.Core.Util
+    open ValidateMerchant.Core.Compiler
     open Expecto
     open Logary // needed at bottom to give right "Level" lookup for logging
     // Tag-list for the logger is namespace, project name, file name

@@ -1,14 +1,14 @@
-namespace app.Core
+namespace ValidateMerchant.Core
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Tokens
+    open ValidateMerchant
+    open ValidateMerchant.Types
+    open ValidateMerchant.Lenses
+    open ValidateMerchant.Persist
+    open ValidateMerchant.Core.Tokens
 
 
 (*    type CompilerRuleType =

@@ -1,15 +1,15 @@
-namespace app.Test
+namespace IncomingCharges.Test
   module SmokeTests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Compiler
+    open IncomingCharges
+    open IncomingCharges.Types
+    open IncomingCharges.Lenses
+    open IncomingCharges.Persist
+    open IncomingCharges.Core
+    open IncomingCharges.Core.Compiler
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

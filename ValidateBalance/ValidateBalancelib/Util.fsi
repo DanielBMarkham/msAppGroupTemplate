@@ -1,14 +1,14 @@
-namespace app.Core
+namespace ValidateBalance.Core
   module Util=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Tokens
+    open ValidateBalance
+    open ValidateBalance.Types
+    open ValidateBalance.Lenses
+    open ValidateBalance.Persist
+    open ValidateBalance.Core.Tokens
 
 
 (*    type CompilerRuleType =

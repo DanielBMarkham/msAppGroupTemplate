@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace ValidateMerchant.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open ValidateMerchant
+    open ValidateMerchant.Types
+    open ValidateMerchant.Lenses
+    open ValidateMerchant.Persist
+    open ValidateMerchant.Utilities
+    open ValidateMerchant.Core
+    open ValidateMerchant.Core.Util
+    open ValidateMerchant.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 

@@ -1,17 +1,17 @@
-namespace app.Test
+namespace ValidateAccount.Test
   module LineIdentificationTests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
-    open app.Core.Tokens
+    open ValidateAccount
+    open ValidateAccount.Types
+    open ValidateAccount.Lenses
+    open ValidateAccount.Persist
+    open ValidateAccount.Core
+    open ValidateAccount.Core.Util
+    open ValidateAccount.Core.Compiler
+    open ValidateAccount.Core.Tokens
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

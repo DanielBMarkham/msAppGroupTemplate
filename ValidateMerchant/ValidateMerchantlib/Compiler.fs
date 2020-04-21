@@ -1,15 +1,15 @@
-namespace app.Core
+namespace ValidateMerchant.Core
   module Compiler=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Util
-    open app.Core.Tokens
+    open ValidateMerchant
+    open ValidateMerchant.Types
+    open ValidateMerchant.Lenses
+    open ValidateMerchant.Persist
+    open ValidateMerchant.Core.Util
+    open ValidateMerchant.Core.Tokens
     // needed at bottom to give right "Level" lookup for logging
     open Logary
     open System.Threading

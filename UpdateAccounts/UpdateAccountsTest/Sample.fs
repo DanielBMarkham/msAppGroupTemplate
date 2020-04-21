@@ -1,4 +1,4 @@
-namespace app.Tests
+namespace UpdateAccounts.Tests
   module Sample=
     open Expecto
     open Logary

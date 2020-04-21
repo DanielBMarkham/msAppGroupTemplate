@@ -1,4 +1,4 @@
-﻿namespace app.Test
+﻿namespace ValidateBalance.Test
   module Main=
     open System
     open System.Threading
@@ -6,11 +6,11 @@
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Test.Util
+    open ValidateBalance.Types
+    open ValidateBalance.Lenses
+    open ValidateBalance.Persist
+    open ValidateBalance.Utilities
+    open ValidateBalance.Test.Util
     //Yes, I'm repeating several modules in my include list, in seemingly-random order. Don't touch it, moron!
     open Logary
     open Logary.Configuration

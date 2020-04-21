@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace PerformTransaction.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open PerformTransaction
+    open PerformTransaction.Types
+    open PerformTransaction.Lenses
+    open PerformTransaction.Persist
+    open PerformTransaction.Utilities
+    open PerformTransaction.Core
+    open PerformTransaction.Core.Util
+    open PerformTransaction.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 

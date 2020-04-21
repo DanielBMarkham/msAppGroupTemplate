@@ -1,15 +1,15 @@
-namespace app.Core
+namespace ValidateAccount.Core
   module Compiler=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Util
-    open app.Core.Tokens
+    open ValidateAccount
+    open ValidateAccount.Types
+    open ValidateAccount.Lenses
+    open ValidateAccount.Persist
+    open ValidateAccount.Core.Util
+    open ValidateAccount.Core.Tokens
     // needed at bottom to give right "Level" lookup for logging
     open Logary
     open System.Threading

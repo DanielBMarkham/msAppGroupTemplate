@@ -1,17 +1,17 @@
-namespace app.Test
+namespace ValidateMerchant.Test
   module LineIdentificationTests=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
-    open app.Core.Tokens
+    open ValidateMerchant
+    open ValidateMerchant.Types
+    open ValidateMerchant.Lenses
+    open ValidateMerchant.Persist
+    open ValidateMerchant.Core
+    open ValidateMerchant.Core.Util
+    open ValidateMerchant.Core.Compiler
+    open ValidateMerchant.Core.Tokens
     open Expecto
     open Util
     open Logary // needed at bottom to give right "Level" lookup for logging

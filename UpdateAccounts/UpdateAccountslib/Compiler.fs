@@ -1,15 +1,15 @@
-namespace app.Core
+namespace UpdateAccounts.Core
   module Compiler=
     open System
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Core.Util
-    open app.Core.Tokens
+    open UpdateAccounts
+    open UpdateAccounts.Types
+    open UpdateAccounts.Lenses
+    open UpdateAccounts.Persist
+    open UpdateAccounts.Core.Util
+    open UpdateAccounts.Core.Tokens
     // needed at bottom to give right "Level" lookup for logging
     open Logary
     open System.Threading

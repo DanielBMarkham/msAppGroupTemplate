@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace ValidateAccount.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open ValidateAccount
+    open ValidateAccount.Types
+    open ValidateAccount.Lenses
+    open ValidateAccount.Persist
+    open ValidateAccount.Utilities
+    open ValidateAccount.Core
+    open ValidateAccount.Core.Util
+    open ValidateAccount.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 

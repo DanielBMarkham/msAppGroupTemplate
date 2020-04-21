@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace IncomingCharges.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open IncomingCharges
+    open IncomingCharges.Types
+    open IncomingCharges.Lenses
+    open IncomingCharges.Persist
+    open IncomingCharges.Utilities
+    open IncomingCharges.Core
+    open IncomingCharges.Core.Util
+    open IncomingCharges.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 

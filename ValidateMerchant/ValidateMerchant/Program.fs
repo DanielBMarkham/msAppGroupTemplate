@@ -1,10 +1,10 @@
-﻿namespace app.Compiler
+﻿namespace ValidateMerchant.Compiler
   module Main=
     open System
     open System.Diagnostics
     open System.Threading
-    open app.Types
-    open app.Compiler.Util
+    open ValidateMerchant.Types
+    open ValidateMerchant.Compiler.Util
     open Logary
     open System
     // Tag-list for the logger is namespace, project name, file name

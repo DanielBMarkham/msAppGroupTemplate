@@ -1,18 +1,18 @@
-namespace app.Compiler
+namespace ValidateBalance.Compiler
   module Util=
     open System
     open System.IO
     open SystemTypeExtensions
     open SystemUtilities
     open CommandLineHelper
-    open app
-    open app.Types
-    open app.Lenses
-    open app.Persist
-    open app.Utilities
-    open app.Core
-    open app.Core.Util
-    open app.Core.Compiler
+    open ValidateBalance
+    open ValidateBalance.Types
+    open ValidateBalance.Lenses
+    open ValidateBalance.Persist
+    open ValidateBalance.Utilities
+    open ValidateBalance.Core
+    open ValidateBalance.Core.Util
+    open ValidateBalance.Core.Compiler
     open Logary // needed at bottom to give right "Level" lookup for logging
     open System.Numerics
 
